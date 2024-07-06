@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!--bree serif font link-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+   
+   <style>
+    .profile{
+        height: 300px;
+        width: 300px;
+       border-radius: 50%;
+       padding-top: 20px;
+       padding-right: 20px;
+    }
+    .hero{
+        padding-top: 20px;
+        background-color: #D6EFD8;
+        height: 100%;
+        padding-bottom: 20px;
+    }
+    .name{
+        padding-top: 20px;
+        font-size: 50px;
+    }
+    .Resume{
+        padding-bottom: 20px;
+        
+    }
+    .greencolor{
+        color: #508D4E;
+    }
+    .center{
+        text-align: center;
+    }
+
+    .bsfont{
+        font-weight: 100;
+        font-family: "Bree Serif", serif;
+    }
+    .imagecontainer{
+        text-align: right;
+    }
+    .container2{
+        padding: 40px;
+        display: grid;
+        grid-template-columns:  1fr 2fr;
+        grid-template-rows: auto auto;
+        grid-gap: 100px;
+    }
+    .column1{
+        grid-column: 1;
+    }
+    .column2{
+        grid-column: 2;
+    }
+    p,li{
+        font-size: 20px;
+        text-justify: inter-word;
+    }
+
+    .fl{
+    float: left;
+    margin-right: 20px;
+   }
+
+  .container4{
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .imageText{
+    display: flex;
+    align-items: center;
+  }
+  .fl1{
+    float: left;
+  }
+  .fl2{
+    float: left;
+  }
+  .image2{
+    height: 150%
+  }
+    </style>
+    <!--cdn link-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!--hero section-->
+    <section class="hero">
+     <div class="container1">
+        <img src="cloud.png" alt="cloud image" class="image1">
+        <h1 class="greencolor center bsfont">I am Suleman Zafar</h1>
+        <h2 class="greencolor center bsfont"><b>A <u>Pro</u>grammer</b></h2>
+        <div class="imagecontainer">
+            <img src="cloud.png" alt="cloud image" class="image2">
+        </div>
+        </div>
+    </section>
+
+    <!--Resume-->
+
+    <section class="Resume">
+    <div class="container2">
+       <div class="column1">
+        <img src="profileImage.jpg" class="profile"> 
+        <h2 class="bsfont "><u><b>About Me</b></u></h2>    
+        <p class=" bsfont">I am a <span class="yc">free-lance</span> web developer who <span class="yc">creates</span> and <span class="yc">designs</span> the websites, and <span class="yc">optimize</span> them for <span class="yc">performance!</span> </p>  
+        <h2 class="bsfont "><u><b>Contact Info</b></u></h2> 
+        
+        <!--Contact info-->
+
+        <p><svg xmlns="http://www.w3.org/2000/svg" height="20" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+          </svg> +123-456-7890</p>
+        <p><svg xmlns="http://www.w3.org/2000/svg" height="20" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+          </svg> hello@reallygreatsite.com</p>
+
+        <p><svg xmlns="http://www.w3.org/2000/svg"height="20" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+          </svg> 123 Anywhere St., Any City</p>
+        
+          <!--Languages-->
+
+          <h2 class="bsfont"><b><u>Languages</u></b></h2>
+          <p class="bsfont"> 
+            <ul class="bsfont">
+               <li>English</li>
+               <li>Urdu</li>
+               <li>Panjabi</li>
+            </ul>
+          </p>
+
+          <!--Experties-->
+
+          <h2 class="bsfont"><b><u>Experties</u></b></h2>
+          <ul class="bsfont">
+            <li>Management Skills</li>
+            <li>performance optimization</li>
+            <li>UI / UX </li>
+            <li>Web design</li>
+          </ul>
+    </div>
+       <div class="column2">
+        <h1 class=" bsfont name"><br>Suleman <br>Zafar</b></h1>
+        <p class="bsfont">Web Developer</p>
+        <h2 class="bsfont"><b><u><br>Experience</u></b></h2>
+        <p class="bsfont">As a seasoned freelance web developer with 3 years of experience, I have honed my skills in crafting robust, responsive, and user-friendly websites that exceed client expectations. Proficient in HTML, CSS, JavaScript, and various frameworks such as React and WordPress, I have successfully delivered numerous projects that showcase my expertise in front-end development, back-end integration, and database management. With a strong passion for staying up-to-date with the latest industry trends and technologies, I continuously expand my skillset to ensure innovative and efficient solutions for my clients. Whether it's building a brand-new website or revamping an existing one, I am dedicated to providing top-notch services that meet the highest standards of quality, reliability, and performance.</p>
+        <h2 class="bsfont"><b><u><br>Education</u></b></h2>
+        <p class="bsfont">
+            <ul class="bsfont">
+                  <li>Matric from FAZMIC</li>
+                  <li>ICS from ABICS</li>
+            </ul>
+        </p>
+        <h2 class="bsfont"><b><u><br>Skills</u></b></h2>
+        <P cladd="bsfont">
+            <ul class="bsfont">
+                <li>Web Design and creation</li>
+                <li>Project Management</li>
+            </ul>
+        </P>
+      </div>
+    </div>
+    </section>
+
+    <!--Additional info about me: -->
+    <section>
+        <div class="container4">
+           <div class="columni">
+            <img src="typing.jpeg" class="image1">
+            <p class="bsfont imageText">I am really good at typing and I enjoy typing really fast</p>
+           </div>
+           <div class="columnii">
+            <img src="design.jpeg" class="image2">
+            <p class="bsfont imageText"> I create beautiful designs!</p>
+           </div>
+        </div>
+    </section>
+     
+    <section>
+        <div>
+            
+            <p style="font-size: 500px; text-align: center;">:)</p>
+        </div>
+    </section>
+  
+    
+</body>
+</html>
